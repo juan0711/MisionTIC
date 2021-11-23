@@ -1,0 +1,17 @@
+.padre
+{
+	background-color: #eeee; /* Color gris */
+	height: 100vh; /* Para que ese contenedor tenga su height de toda la pantalla */
+	width: 100vw; /* Para que ese contenedor tenga su width de toda la pantalla */
+	margin:0px;
+	padding:0px;
+	display: flex; /* se cambia el tipo de display del contenedor a flex */
+		align-items: center; /* para poder centrar su contenido verticalmente */
+}
+.hijo
+{
+	width:50vw; /* Para que el contenedir tenga su width del 50% de la pantalla */
+	background-color: #fff; /* color blanco */
+	padding:50px; /* margen interior del contenedor */
+	margin: 0 auto; /* Para central horizontalmente */
+}
